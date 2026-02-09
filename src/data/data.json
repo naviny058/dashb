@@ -1,0 +1,186 @@
+{
+  "stats": {
+    "totalUsers": 12450,
+    "activeUsers": 3890,
+    "monthlyRevenue": 842300,
+    "conversionRate": 3.8,
+    "growth": {
+      "users": 12.4,
+      "revenue": 8.9,
+      "orders": -2.1
+    }
+  },
+  "revenueOverTime": [
+    {
+      "month": "Jan",
+      "revenue": 52000
+    },
+    {
+      "month": "Feb",
+      "revenue": 61000
+    },
+    {
+      "month": "Mar",
+      "revenue": 58000
+    },
+    {
+      "month": "Apr",
+      "revenue": 72000
+    },
+    {
+      "month": "May",
+      "revenue": 81000
+    },
+    {
+      "month": "Jun",
+      "revenue": 95000
+    },
+    {
+      "month": "Jul",
+      "revenue": 102000
+    },
+    {
+      "month": "Aug",
+      "revenue": 110000
+    }
+  ],
+  "usersOverTime": [
+    {
+      "date": "2025-01-01",
+      "users": 1200
+    },
+    {
+      "date": "2025-02-01",
+      "users": 1800
+    },
+    {
+      "date": "2025-03-01",
+      "users": 2600
+    },
+    {
+      "date": "2025-04-01",
+      "users": 3400
+    },
+    {
+      "date": "2025-05-01",
+      "users": 4200
+    },
+    {
+      "date": "2025-06-01",
+      "users": 5100
+    }
+  ],
+  "revenueByCategory": [
+    {
+      "category": "Subscriptions",
+      "value": 55
+    },
+    {
+      "category": "One-time Purchases",
+      "value": 25
+    },
+    {
+      "category": "Ads",
+      "value": 15
+    },
+    {
+      "category": "Affiliates",
+      "value": 5
+    }
+  ],
+  "trafficSources": [
+    {
+      "source": "Organic",
+      "visits": 4200
+    },
+    {
+      "source": "Paid Ads",
+      "visits": 2800
+    },
+    {
+      "source": "Social Media",
+      "visits": 1900
+    },
+    {
+      "source": "Referral",
+      "visits": 1100
+    }
+  ],
+  "recentOrders": [
+    {
+      "id": "ORD-1001",
+      "customer": "Amit Sharma",
+      "email": "amit@example.com",
+      "amount": 4999,
+      "status": "completed",
+      "date": "2025-02-01"
+    },
+    {
+      "id": "ORD-1002",
+      "customer": "Neha Verma",
+      "email": "neha@example.com",
+      "amount": 1999,
+      "status": "pending",
+      "date": "2025-02-02"
+    },
+    {
+      "id": "ORD-1003",
+      "customer": "Rahul Mehta",
+      "email": "rahul@example.com",
+      "amount": 2999,
+      "status": "failed",
+      "date": "2025-02-02"
+    },
+    {
+      "id": "ORD-1004",
+      "customer": "Priya Singh",
+      "email": "priya@example.com",
+      "amount": 9999,
+      "status": "completed",
+      "date": "2025-02-03"
+    }
+  ],
+  "usersTable": [
+    {
+      "id": "USR-001",
+      "name": "Amit Sharma",
+      "email": "amit@example.com",
+      "role": "Admin",
+      "status": "active",
+      "lastLogin": "2025-02-07"
+    },
+    {
+      "id": "USR-002",
+      "name": "Neha Verma",
+      "email": "neha@example.com",
+      "role": "User",
+      "status": "inactive",
+      "lastLogin": "2025-01-29"
+    },
+    {
+      "id": "USR-003",
+      "name": "Rahul Mehta",
+      "email": "rahul@example.com",
+      "role": "Manager",
+      "status": "active",
+      "lastLogin": "2025-02-06"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "type": "warning",
+      "message": "Server CPU usage is above 80%"
+    },
+    {
+      "id": 2,
+      "type": "success",
+      "message": "New user registered successfully"
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "message": "Payment gateway timeout detected"
+    }
+  ]
+}
