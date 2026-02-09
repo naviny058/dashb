@@ -69,3 +69,10 @@ function DashboardLayout({ children }) {
 }
 export default DashboardLayout
 ```
+
+### Add Charts using Recharts
+
+`npm install recharts`
+
+we uses two kind of chart line and pie chart from recharts
+best part is that this are reusable components

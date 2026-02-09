@@ -2,8 +2,12 @@ import React from 'react'
 import data from '../data/data.json'
 import StatCard from '../components/ui/StatCard'
 import DashboardLayout from '../components/layout/DashboardLayout'
+import RevenueLineChart from '../components/chart/RevenueLineChart'
+import RevenuePieChart from '../components/chart/RevenuePieChart'
+
 function Dashboard() {
-  const { stats } = data
+
+  const { stats, revenueOverTime, revenueByCategory } = data
   return (
     <DashboardLayout>
       <div className='space-y-6'>
@@ -32,6 +36,14 @@ function Dashboard() {
             trend={stats.growth.orders}
           />
 
+        </div>
+
+        {/* chart */}
+        <div>
+          <div>
+            <RevenueLineChart data={revenueOverTime} />
+          </div>
+          <RevenuePieChart data={revenueByCategory} />
         </div>
       </div>
     </DashboardLayout>
