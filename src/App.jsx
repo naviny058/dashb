@@ -3,6 +3,7 @@ import './App.css'
 import Dashboard from './pages/Dashboard'
 import User from './pages/User'
 import Order from './pages/Order'
+import Setting from './pages/Setting'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/users" element={<User />} />
       <Route path="/orders" element={<Order />} />
+      <Route path="/settings" element={<Setting />} />
     </Routes>
   )
 }

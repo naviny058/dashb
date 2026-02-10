@@ -1,12 +1,12 @@
 import React from 'react'
 import DashboardLayout from '../components/layout/DashboardLayout'
 
-function Order() {
+function Setting() {
   return (
     <DashboardLayout>
-      <h1 className='text-2xl text-slate-800'>Order</h1>
+      <h2 className='text-2xl text-slate-800'>Setting</h2>
     </DashboardLayout>
   )
 }
 
-export default Order
+export default Setting
