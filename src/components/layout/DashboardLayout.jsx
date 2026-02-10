@@ -1,7 +1,7 @@
 import { Sidebar } from 'lucide-react'
 import React, { Children } from 'react'
 import Header from './Header'
-import SideBar from './Sidebar'
+import SideBar from './SideBar'
 
 function DashboardLayout({ children }) {
   return (
