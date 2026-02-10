@@ -76,3 +76,6 @@ export default DashboardLayout
 
 we uses two kind of chart line and pie chart from recharts
 best part is that this are reusable components
+
+### Table with TanStack Table
+``` npm install @tanstack/react-table ```
